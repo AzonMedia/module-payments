@@ -1,9 +1,13 @@
 <?php
-
+declare(strict_types=1);
 
 namespace Azonmedia\Payments\Interfaces;
 
-
+/**
+ * Interface CommandResultInterface
+ * @package Azonmedia\Payments\Interfaces
+ * Represents the result of the execution of a payment command (like charge())
+ */
 interface CommandResultInterface
 {
     //public function __construct(string $command, array $result)

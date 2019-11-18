@@ -1,9 +1,13 @@
 <?php
-
+declare(strict_types=1);
 
 namespace Azonmedia\Payments\Interfaces;
 
-
+/**
+ * Interface CommandTargetInterface
+ * @package Azonmedia\Payments\Interfaces
+ * Represents an account, CC or another object that can have payments commands (like charge()) executed against.
+ */
 interface CommandTargetInterface
 {
     /**

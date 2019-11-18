@@ -2,7 +2,7 @@
     "name": "azonmedia/payments",
     "type": "library",
     "description": "Payment integration interfaces",
-    "keywords": ["utility","debug"],
+    "keywords": ["payment integration","payment interfaces"],
     "homepage": "https://github.com/AzonMedia/module-payments",
     "license": "BSD-3-Clause",
     "authors": [

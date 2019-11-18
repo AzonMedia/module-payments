@@ -1,7 +1,13 @@
 <?php
+declare(strict_types=1);
 
 namespace Azonmedia\Payments\Interfaces;
 
+/**
+ * Interface PaymentProviderInterface
+ * @package Azonmedia\Payments\Interfaces
+ * Represents the integration with a payment provider. Provides the methods for executing payments.
+ */
 interface PaymentProviderInterface
 {
     //public function __construct(PaymentProviderAccountInterface $PaymentProvierAccount)
